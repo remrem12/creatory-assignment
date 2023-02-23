@@ -97,3 +97,14 @@ Create a page where only authenticated users can see a paginated table with the 
   ]
 }
 ```
+
+### note
+
+I like to discover new technologies and open source and this is a good chance to learn a new one,
+so I try to use NextUI which I've never used before as a UI lib for this test.
+Also, because the test includes some validations, I will use Formik to handle stuff relate to form.
+All the things above are new for me, so its really a challenge to integrate them all and make it work well
+I will use a little bit comments in this test to show you what do I think and do.
+
+Well I have not approached Next13 yet so some new features like server component confuse me.
+After implement the NextUI lib, I realize that its just beta. So its took me a bit time to research and combine it all

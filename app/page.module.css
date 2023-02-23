@@ -22,6 +22,7 @@
   width: 480px;
   height: 360px;
   margin-left: -400px;
+  z-index: -1;
 }
 
 .center::after {
@@ -38,4 +39,24 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.center label,
+.center table td {
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+.center a {
+  text-decoration: none;
+}
+
+.center .linkGroup {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.center .linkGroup a {
+  color: rgb(var(--foreground-rgb)) !important;
 }
